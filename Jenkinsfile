@@ -20,7 +20,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh 'chmod +x ./mon_binaire'  // Remplacer 'mon_binaire' par le nom réel de ton exécutable
+                    sh 'chmod +x ./StringInverser'
                 }
             }
         }
